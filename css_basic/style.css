@@ -26,3 +26,22 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+
+@keyframes example {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 3s;
+}

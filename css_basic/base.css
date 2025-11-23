@@ -159,6 +159,24 @@ header {
     transition: border-bottom-color 1s ease;
 }
 
+@keyframes example {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
 header a {
     color: rgba(0, 0, 0, 0.8);
 }
